@@ -47,15 +47,6 @@ Use Cases:
 - Assertion example using `assertEqual`
 - Example of test output for CI-friendly logging
 
-Note: There’s a small bug in this script. Change:
-```python
-str = self.driver.find_element(...).texts
-```
-to:
-```python
-str = self.driver.find_element(...).text
-```
-
 ---
 
 ### 🔹 `new_windows.py`
